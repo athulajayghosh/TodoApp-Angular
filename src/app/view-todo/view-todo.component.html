@@ -1,0 +1,17 @@
+<h3 class="display-4 text-center mt-3 ">Full data</h3> 
+<table class="table table-bordered">
+    <tbody>
+    <tr>
+    <th>User Id</th>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Compleated Status</th>
+    </tr>
+    <tr *ngFor="let i of data">
+    <td>{{i.userId}}</td>
+    <td>{{i.id}}</td>
+    <td>{{i.title}}</td>
+    <td>{{i.completed}}</td>
+    </tr>
+    </tbody>
+</table>
